@@ -8,12 +8,12 @@
 
 
 ## protoc-installation
-- protoc [protoc-installation]
+protoc  [protoc-installation]
 
 [protoc-installation]<https://grpc.io/docs/protoc-installation/>
 
 ## Go plugins for the protocol compiler:
-    Install the protocol compiler plugins for Go using the following commands:
+- Install the protocol compiler plugins for Go using the following commands:
 
 ```go 
 $ go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
