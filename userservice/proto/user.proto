@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package user;
 
-option go_package = "github.com/vinaycharlie01/usergo";
+option go_package = "github.com/vinaycharlie01/usergo/userservice/proto";
 
 
 message User {
