@@ -1,6 +1,9 @@
 
 
 run:
-	protoc -Iuser/proto --go_opt=module=myapp --go_out=. --go-grpc_opt=module=myapp --go-grpc_out=. user/proto/*.proto
-	go build -o bin/server ./user/server
-	go build -o bin/clinet ./user/clinet
+	protoc -Iuserservice/proto --go_opt=module=github.com/vinaycharlie01/usergo --go_out=. userservice/proto/*.proto --go-grpc_opt=module=github.com/vinaycharlie01/usergo --go-grpc_out=. userservice/proto/*.proto
+	go build -o bin/server ./userservice/server
+	go build -o bin/client ./userservice/client
+	./bin/server
+	./bin/clinet
+

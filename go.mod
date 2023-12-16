@@ -1,4 +1,4 @@
-module myapp
+module github.com/vinaycharlie01/usergo
 
 go 1.21.5
 
